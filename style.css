@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+ *{ 
+Margin:0;
+Padding:0;
+Box-sizing: border-box;
+Font-family: 'poppins',sans-serif;
+transition: all 0.2s ease-out;
+}
+p{
+    font-family: 'Roboto' ;
+}
+
+html,body{
+Width:100%;
+Height:100%;
+}
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2rem;
+}
+h3{
+    font-size:1.75rem;
+}
+p{
+    font-size: 1.25rem;
+    Font-family: 'popins',sans-serif;
+    line-height: 1.8rem;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+button{
+    cursor: pointer;
+    box-shadow: 0 0 3px #183b56;
+}
+.container{
+    max-width: 1180px;
+    margin-inline: auto;
+}
+#hero-text{
+color: #183b56;
+}
+.para-text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.25rem;
+    color:#577592;
+    line-height: 1.8rem;
+
+}
+.top-banner{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color:#4fb3d4;
+    background-image: url(IMAGES/asset\ 30.webp);
+    background-size: 300px;
+    font-size: 16px;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+}
+#logo{
+    height: 40px;
+    
+}
+ul{
+    list-style: none;
+    
+}
+ul#nav-opt{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 35px;
+    align-items: center;
+    font-size: 1em;
+    font-weight: 500;
+
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+    padding: 30px 0px 30px 0px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    gap: 16px;
+    /* margin: 20px;
+    padding: 20px; */
+    
+}
+#heroimg{
+    height: 442px;
+    width: 596px;
+}
+#hero-but{
+    align-self:start;
+    padding:12px 24px 12px 24px ;
+    color: white;
+    background-color: #2294ed;
+    font-size: larger;
+    font-weight: 800;
+    border-radius: 8px;
+    border: #2294ed;
+}
+#hero-but:hover,#signup:hover,.featbut:hover{
+    background-color:#183b56;
+    transform: scale(1.05);
+
+}
+#signup{
+    color: white;
+    background-color: #2294ed;
+    font-size: 1rem;
+    font-weight: 800;
+    border-radius: 8px;
+    padding: 12px 24px 12px 24px ;
+    border: #2294ed;
+}
+#signin{
+    color: #183b56;
+    background-color: white;
+    font-size: 1rem;
+    font-weight: 800;
+    border-radius: 8px;
+    padding: 12px 24px 12px 24px ;
+    border: 0.5px solid rgb(42, 42, 42);
+}
