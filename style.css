@@ -225,3 +225,55 @@ p.comp{
     padding: 20px;
  
 }
+.bigf img{
+    width: 100%;
+}
+.end{
+    text-align: center;
+    line-height: 4em;
+    margin: 20px;
+}
+.test{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-block: 20px;
+}
+a.card2{
+    display: block;
+  height: 300px;
+  width: 270px;
+  border-radius: 8px;
+}
+a.card2:hover{
+    transform: scale(1.02);
+    box-shadow: 1px 1px 9px #183b56;
+    backdrop-filter: blur(3);
+    box-sizing: border-box;
+}
+#lnk1{
+    background-image:url(IMAGES/asset\ 34.webp);
+    padding: 15px;
+    color: white;
+    background-size: cover;
+    
+}
+#lnk2{
+    background-image: url(IMAGES/asset\ 35.webp);
+    padding: 15px;
+    color: white;
+    background-size: cover;
+}
+#lnk3{
+    background-image: url(IMAGES/asset\ 36.webp);
+    padding: 15px;
+    color: white;
+    background-size: cover;
+}
+#lnk4{
+    background-image: url(IMAGES/asset\ 34.webp);
+    padding: 15px;
+    color: white;
+    background-size: cover;
+
+}
