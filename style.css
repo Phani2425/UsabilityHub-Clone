@@ -277,3 +277,66 @@ a.card2:hover{
     background-size: cover;
 
 }
+footer{
+    width: 100%;
+    box-sizing: border-box;
+}
+.start{
+    background-color: #183b56;
+    padding: 90px;
+    margin: 50px 0px 50px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 35px;
+    align-items: center;
+    color: white;
+}
+.hero-but{
+
+    padding:12px 24px 12px 24px ;
+    color: white;
+    background-color: #2294ed;
+    font-size: larger;
+    font-weight: 800;
+    border-radius: 8px;
+    border: #2294ed;
+}
+.hero-but:hover{
+    transform: scale(1.02);
+}
+.start2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    padding: 55px;
+}
+.logo{
+    height: 46px;
+}
+.links ul,.links{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 10px;
+}
+#foothead{
+    color: #183b56;
+    font: 1em;
+    font-weight: 800;
+}
+.start3{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 15px;
+    background-color: #b9cde4;
+
+}
+.links a,.start3 a{
+    color: #2f4356;
+    font: 1em;
+}
+a:hover{
+  color: #2294ed;
+}
