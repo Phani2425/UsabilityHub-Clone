@@ -141,3 +141,87 @@ ul#nav-opt{
     padding: 12px 24px 12px 24px ;
     border: 0.5px solid rgb(42, 42, 42);
 }
+.companies{
+    padding: 30px 0px 30px 0px;
+    width:100%;
+    
+}
+p.comp{
+    color: #183b56;
+    
+    font-weight: 900;
+    font-size: small;
+    text-align: center;
+    font-size: 1rem;
+
+}
+#compimg{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 20px;
+    align-items: center;
+}
+#compimg img{
+    height: 46px;
+}
+.feattxt{
+    text-align: center;
+    line-height: 5rem;
+}
+.featbut{
+    background-color: white;
+    color: #183b56;
+    font-size: 1rem;
+    font-weight: 900;
+    border-radius: 8px;
+    padding: 12px 24px 12px 24px ;
+    border: 0.5px solid #183b56;
+}
+#signin:hover,.featbut:hover{
+    color: #2294ed;
+    border: 0.5px solid #2294ed;
+    transform: scale(1.02);
+}
+.features{
+    background-image:url(IMAGES/asset\ 32.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.featimg{
+    padding: 50px 10px 60px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 342px;
+    height: 283px;
+    text-align: center;
+    gap: 13px;
+}
+.bigf{
+   margin: 50px 20px 0px;
+   padding: 30px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 60px;
+}
+#feat-des{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    padding: 20px;
+ 
+}
