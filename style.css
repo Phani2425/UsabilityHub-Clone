@@ -361,6 +361,10 @@ a:hover{
 /* MEDIA QUERIES */
 
 @media screen and (max-width:991px){
+    #logo{
+        height: 35px;
+        
+    }
     #nav-opt li{
         display: none;
     }
@@ -397,6 +401,10 @@ a:hover{
 }
 
 @media screen and (max-width:767px){
+    #logo{
+        height: 30px;
+        
+    }
     .hero{
         flex-direction: column-reverse;
         gap: 30px;
@@ -439,6 +447,10 @@ a:hover{
 }
 
 @media screen and (max-width:479px){
+    #logo{
+        height: 25px;
+        
+    }
     h1{
         font-size: 2rem;
     }
