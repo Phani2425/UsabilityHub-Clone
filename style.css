@@ -40,6 +40,7 @@ button{
 .container{
     max-width: 1180px;
     margin-inline: auto;
+    overflow: hidden;
 }
 #hero-text{
 color: #183b56;
@@ -88,6 +89,9 @@ ul#nav-opt{
     font-weight: 500;
 
 }
+.menu{
+    display: none;
+}
 .hero{
     display: flex;
     justify-content: space-between;
@@ -100,13 +104,10 @@ ul#nav-opt{
     flex-direction: column;
     justify-content:center ;
     gap: 16px;
-    /* margin: 20px;
-    padding: 20px; */
-    
 }
 #heroimg{
-    height: 442px;
-    width: 596px;
+    height: 45vh;
+    width: 53vw;
 }
 #hero-but{
     align-self:start;
@@ -148,7 +149,6 @@ ul#nav-opt{
 }
 p.comp{
     color: #183b56;
-    
     font-weight: 900;
     font-size: small;
     text-align: center;
@@ -161,6 +161,7 @@ p.comp{
     padding: 24px;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     gap: 20px;
     align-items: center;
@@ -225,6 +226,13 @@ p.comp{
     padding: 20px;
  
 }
+#feat-des h3{
+    font-size: 3rem;
+    color: #2294ed;
+}
+#feat-des h4{
+    font-size: 1.6rem;
+}
 .bigf img{
     width: 100%;
 }
@@ -238,6 +246,7 @@ p.comp{
     justify-content: space-evenly;
     align-items: center;
     margin-block: 20px;
+    flex-wrap: wrap;
 }
 a.card2{
     display: block;
@@ -256,6 +265,8 @@ a.card2:hover{
     padding: 15px;
     color: white;
     background-size: cover;
+    background-color: #222;
+    background-blend-mode: soft-light;
     
 }
 #lnk2{
@@ -263,18 +274,24 @@ a.card2:hover{
     padding: 15px;
     color: white;
     background-size: cover;
+    background-color: #222;
+    background-blend-mode: soft-light;
 }
 #lnk3{
     background-image: url(IMAGES/asset\ 36.webp);
     padding: 15px;
     color: white;
     background-size: cover;
+    background-color: #222;
+    background-blend-mode: soft-light;
 }
 #lnk4{
     background-image: url(IMAGES/asset\ 34.webp);
     padding: 15px;
     color: white;
     background-size: cover;
+    background-color: #222;
+    background-blend-mode: soft-light;
 
 }
 footer{
@@ -339,4 +356,155 @@ footer{
 }
 a:hover{
   color: #2294ed;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width:991px){
+    #nav-opt li{
+        display: none;
+    }
+    #nav-opt .menu{
+        display: block;
+        font-size: 1.5rem;
+        font-weight: 1.2rem;
+        padding-inline: 30px;
+    }
+    .test{
+        gap: 20px;
+        padding: 20px;
+    }
+    a.card2{
+        width:calc(50% - 10px);
+    }
+    .start{
+        padding-block: 40px;
+    }
+    .start-but{
+        padding-inline: 180px;
+    }
+    .start2{
+        padding-block: 20px;
+        flex-direction: column;
+        gap: 39px;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+    }
+    .hero{
+        padding-inline: 35px;
+    }
+}
+
+@media screen and (max-width:767px){
+    .hero{
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+    #heroimg{
+        width: 100%;
+        height:100%;
+    }
+    .text{
+        width: 100%;
+        text-align: center;
+    }
+    #hero-but{
+        align-self: center;
+        width: 80vw;
+        text-align: center;
+    }
+    .bigf{
+        flex-direction: column;
+
+    }
+    .diff{
+        flex-direction: column-reverse;
+    }
+    #feat-des h3{
+        font-size: 3rem;
+        color: #2294ed;
+    }
+    #feat-des h4{
+        font-size: 2rem;
+    }
+    #feat-des p{
+        font-size: 1.5rem;
+    }
+    .card2 h3{
+        font-size: 1.6rem;
+        line-height: 2.2rem;
+    }
+
+}
+
+@media screen and (max-width:479px){
+    h1{
+        font-size: 2rem;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+    h3{
+        font-size:1.25rem;
+    }
+    p.comp{
+        padding: 15px;
+    }
+    .feattxt h2{
+        padding-inline: 15px;
+        line-height: 3rem;
+        
+    }
+    .para-text{
+        font-family: 'Roboto', sans-serif;
+        font-size: 1rem;
+        color:#577592;
+        line-height: 1.7rem;
+    
+    }
+    #lnk1,#lnk2,#lnk3,#lnk4{
+        height: 24vh;
+        width: 100%;
+        text-align: center;
+    }
+    .card2 h3{
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+    .start{
+        text-align: center;
+    }
+    .container{
+        width: 100vw;
+    }
+    .start-but{
+        padding-inline: 80px;
+    }
+    .bigf{
+        margin: 20px 20px 5px 5px;
+        padding: 10px;
+        gap: 30px;
+     }
+     #feat-des h3{
+        font-size: 2rem;
+        color: #2294ed;
+    }
+    #feat-des h4{
+        font-size: 1.3rem;
+    }
+    #feat-des p{
+        font-size: 1rem;
+    }
+    #hero-text{
+        line-height: 1.9rem;
+        padding-bottom: 10px;
+    }
+    .start3{
+        padding-block: 40px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
 }
